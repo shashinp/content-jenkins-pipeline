@@ -23,5 +23,6 @@ pipeline {
       success {
         archiveArtifacts artifacts: 'rectangle.jar', fingerprint:true
       }
-    }
+   }
+}
 }
